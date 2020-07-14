@@ -8,4 +8,18 @@
 ul {
   list-style: none;
 }
+
+.footer__logo{
+    display: block;
+    width: 236px;
+    /* height: 36px; */
+    /* margin-right: 15px;
+    margin-bottom: 12px; */
+    fill: #f72210;
+}
+
+.footer__link-container{
+    display: flex;
+    background-color: aqua;
+}
 /*# sourceMappingURL=style.css.map */
