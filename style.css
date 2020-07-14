@@ -10,16 +10,37 @@ ul {
 }
 
 .footer__logo{
-    display: block;
-    width: 236px;
-    /* height: 36px; */
-    /* margin-right: 15px;
-    margin-bottom: 12px; */
     fill: #f72210;
+    display: inline-block;
+    height: 2rem;
 }
 
-.footer__link-container{
+.footer__list--icons{
+    position: relative;
+    top: -53px;
+    font-size: 2rem;
+}
+
+.footer__list--link{
+    width: max-content;
+    overflow: hidden;
+}
+
+.wrapper{
+    position: relative;
+    top: -41px;
+}
+
+a {
+    color: gray !important;
+}
+
+/* .footer__item--link{
+    border-right: 1px solid gainsboro;
+} */
+
+/* .footer__link-container{
     display: flex;
     background-color: aqua;
-}
+} */
 /*# sourceMappingURL=style.css.map */
