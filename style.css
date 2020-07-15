@@ -56,6 +56,10 @@ a:hover {
   color: rgba(12, 11, 11, 0.8);
 }
 
+.red {
+  color: #f72210;
+}
+
 .footer {
   color: #666;
   background-color: white;
@@ -252,7 +256,7 @@ a:hover {
 .subscrib__heading {
   color: #f72210;
   font-weight: 700;
-  letter-spacing: 1px;
+  letter-spacing: -1px;
 }
 
 .subscrib__content-box {
@@ -290,6 +294,10 @@ a:hover {
   font-weight: bold;
 }
 
+.subscrib__Content p {
+  font-size: 1.6rem;
+}
+
 .subscrib__submit {
   display: block;
   width: -webkit-fit-content;
@@ -315,6 +323,11 @@ a:hover {
   height: 14px;
   margin-left: 9px;
   background: url(https://g.newsweek.com/www/images/icon-arrow-right.svg) center/contain no-repeat;
+}
+
+.catalog__title {
+  padding-top: 25px;
+  border-top: 1px solid #d9d9d9;
 }
 
 .bg-color {
