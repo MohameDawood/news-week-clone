@@ -37,3 +37,7 @@ ul {
 .bot{
     bottom: 24px;
 }
+
+.turn {
+    top: 1.5rem;
+}
