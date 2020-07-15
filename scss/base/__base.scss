@@ -38,6 +38,10 @@ h3 {
 }
 
 h4 {
+  @include respond('tablet') {
+    font-size: 22px;
+    line-height: 22px;
+  }
   font-size: 1.8rem;
   line-height: 1.8rem;
 }

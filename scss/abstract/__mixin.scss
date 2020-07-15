@@ -1,13 +1,28 @@
 @mixin vertical-gutter {
-    &::before {
-        content: "";
-        display: block;
-        height: 18px;
-        background-color: $vertical-gutter-bg;
-        border-top: 1px solid $vertical-gutter-border;
-        position: absolute;
-        top: 0;
-        left: -15px;
-        right: -15px;
+  &::before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 18px;
+    background-color: $vertical-gutter-bg;
+    border-top: 1px solid $vertical-gutter-border;
+    position: absolute;
+    top: 0;
+    // left: -15px;
+    // right: -15px;
+  }
+}
+
+// tablet == 720px
+@mixin respond($breakpoint) {
+  @if ($breakpoint == 'Tablet') {
+    @media (min-width: 720px) {
+      @content;
     }
+  }
+  @if ($breakpoint == 'laptp') {
+    @media (min-width: 1200px) {
+      @content;
+    }
+  }
 }

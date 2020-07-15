@@ -6,9 +6,16 @@
 
   &__img-box {
     &--2 {
-      width: 9.5rem;
+      width: 95px;
       margin-right: 1.5rem;
       z-index: 5000;
+
+      @media (min-width: 720px) {
+        width: 35rem;
+      }
+      @media (min-width: 1200px) {
+        width: 19rem;
+      }
     }
   }
 
