@@ -41,3 +41,26 @@ ul {
 .turn {
     top: 1.5rem;
 }
+
+img{
+    vertical-align: unset;
+}
+
+.opp{
+    position: relative;
+    top: -57px;
+}
+
+.vs1{
+    top: -49px;
+}
+
+.vs{
+    top: -30px;
+}
+
+.debate-1{
+    position: relative;
+    top: -56px;
+    left: 30px;
+}
