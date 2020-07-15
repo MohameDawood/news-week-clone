@@ -16,9 +16,24 @@ ul {
 #clr {
     color: black;
     border-right: 1px solid gray;
-    padding-right: 8px;
+    padding-right: 5px;
 }
 
 #clr  :hover {
   color: red;
+}
+
+.clr{
+    color: grey;
+}
+
+.trend {
+    margin-top: 1px solid red;
+}
+.clr :hover{
+    color: red;
+}
+
+.bot{
+    bottom: 24px;
 }
