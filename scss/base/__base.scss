@@ -1,11 +1,50 @@
 *,
 *::after,
-*::before{
+*::before {
   // border sizing appling by bootstrap
-  margin:0 ;
-  padding: 0; 
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  // 62.5% * 16px = 10px which make 1 rem = 10px
+  font-size: 62.5%;
+}
+
+body {
+  padding-top: 30rem;
+  // reset bootstrap font-size 1 rem that depend on default website font-size
+  font-size: 1.6rem;
+  color: $dark-gray;
+  background-color: #f4f5f7;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  display: inline-block;
+  font-family: 'Roboto Condensed', sans-serif;
+  margin-bottom: 10px;
+  position: relative;
+  color: black;
+}
+
+h3 {
+  font-size: 20px;
+  line-height: 20px;
 }
 
 ul {
   list-style: none;
+}
+
+a {
+  color: inherit;
+
+  &:hover {
+    text-decoration: none;
+  }
 }

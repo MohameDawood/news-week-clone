@@ -1,0 +1,13 @@
+@mixin vertical-gutter {
+    &::before {
+        content: "";
+        display: block;
+        height: 18px;
+        background-color: $vertical-gutter-bg;
+        border-top: 1px solid $vertical-gutter-border;
+        position: absolute;
+        top: 0;
+        left: -15px;
+        right: -15px;
+    }
+}
