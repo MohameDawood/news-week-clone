@@ -9,6 +9,16 @@ ul {
   list-style: none;
 }
 
-.nav-one{
-    background-color: red;
+.nav-one {
+  background-color: red;
+}
+
+#clr {
+    color: black;
+    border-right: 1px solid gray;
+    padding-right: 8px;
+}
+
+#clr  :hover {
+  color: red;
 }
