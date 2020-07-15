@@ -30,8 +30,13 @@ h6 {
 }
 
 h3 {
-  font-size: 20px;
-  line-height: 20px;
+  font-size: 2rem;
+  line-height: 2rem;
+}
+
+h4 {
+  font-size: 1.8rem;
+  line-height: 1.8rem;
 }
 
 ul {
@@ -328,6 +333,41 @@ a:hover {
 .catalog__title {
   padding-top: 25px;
   border-top: 1px solid #d9d9d9;
+}
+
+.catalog__img-box--2 {
+  width: 9.5rem;
+  margin-right: 1.5rem;
+  z-index: 5000;
+}
+
+.catalog__img {
+  width: 100%;
+}
+
+.catalog__heading {
+  margin-top: 1rem;
+  margin-bottom: 2.5rem;
+  font-weight: bold;
+}
+
+.catalog__list-box {
+  margin-bottom: 30px;
+}
+
+.catalog__item {
+  padding-bottom: 1rem;
+  border-top: 1px solid #ddd;
+}
+
+.catalog__item:not(:first-child) {
+  padding-top: 1rem;
+}
+
+.catalog__article--item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .bg-color {

@@ -2,8 +2,42 @@
   &__title {
     padding-top: 25px;
     border-top: 1px solid $border-color-light;
-    
   }
 
-  &__img-box
+  &__img-box {
+    &--2 {
+      width: 9.5rem;
+      margin-right: 1.5rem;
+      z-index: 5000;
+    }
+  }
+
+  &__img {
+    width: 100%;
+  }
+
+  &__heading {
+    margin-top: 1rem;
+    margin-bottom: 2.5rem;
+    font-weight: bold;
+  }
+
+  &__list-box {
+    margin-bottom: 30px;
+  }
+
+  &__item {
+    padding-bottom: 1rem;
+    border-top: 1px solid #ddd;
+
+    &:not(:first-child) {
+      padding-top: 1rem;
+    }
+  }
+
+  &__article {
+    &--item {
+      display: flex;
+    }
+  }
 }
