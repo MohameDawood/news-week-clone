@@ -250,8 +250,7 @@ a:hover {
 @media (min-width: 685px) {
   .newsletter__img-box {
     display: inline-block;
-    background: url(https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5)
-    center center/cover no-repeat;
+    background: url(https://tinyurl.com/y8ooouhh)center center/cover no-repeat;
     width: 191px;
     height: 251px;
     margin: -20px;
@@ -273,7 +272,6 @@ a:hover {
 }
 
 .newsletter__content p {
-  font: 300 15px/21px "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin-bottom: 2rem;
 }
 
@@ -300,8 +298,7 @@ a:hover {
   cursor: pointer;
   font-weight: bold;
   font-family: "Roboto Condensed", sans-serif;
-  background: url(https://g.newsweek.com/www/images/free-sign-up.svg)
-  center/108px no-repeat #f61602;
+  background: url(https://g.newsweek.com/www/images/free-sign-up.svg) center/108px no-repeat #f61602;
   border: none;
   border-radius: 3px;
 }
@@ -598,18 +595,14 @@ nav {
   background-color: red;
 }
 
-.clr {
-  color: black;
-  border-right: 1px solid gray;
-  padding-right: 5px;
-}
-
 .clr :hover {
   color: red;
 }
 
 .clr {
-  color: grey;
+  border-right: 1px solid gray;
+  color: black;
+  padding-right: 5px;
 }
 
 .trend {
