@@ -24,12 +24,920 @@
       crossorigin="anonymous"
     />
 
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <!-- Compiled CSS -->
     <link rel="stylesheet" href="style.css" />
     <title>Document</title>
   </head>
 
   <body>
+    <header>
+      <!-- <nav>
+        <div class="container">
+          <div class="row nav-one">
+            <div class="col-lg-4 col-sm-4 col-xs-4 pt-2 d-none d-lg-block">
+              <i class="fa fa-cloud text-white"> 30º C Chennai ></i>
+              <br />
+              <span class="mt-2 text-white">
+                wed, jul 15, 2020
+              </span>
+            </div>
+
+            <div class="col-lg-4 col-sm-4 col-xs-4 w-lg-60">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/d/db/Newsweek_Logo.svg"
+                alt="logo"
+                width="250rem"
+              />
+            </div>
+
+            <div class="col-lg-4 col-sm-4 col-xs-4">
+              <div class="float-right btn pt-3">
+                <i
+                  class="fa fa-user mr-3 text-light d-md-none d-lg-none d-xl-none"
+                  aria-hidden="true"
+                ></i>
+                <a href="#" class="text-decoration-none text-white pr-2"
+                  >Login</a
+                >
+                
+                <button
+                  class="btn btn-warning rounded-pill text-uppercase font-weight-bold"
+                >
+                  Subscribe >
+                </button>
+                <i
+                  class="fa fa-bars ml-3 text-light d-lg-none d-xl-none"
+                  aria-hidden="true"
+                ></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav> -->
+
+      <nav class="d-flex container justify-content-between flex-nowrap">
+        <a href="#" class="d-none d-lg-block ml-3"
+          ><span class="text-dark font-weight-bold py-3"
+            ><i class="fas fa-cloud"></i> 30º C Chennai <br />Thu, Jul 09,
+            2020</span
+          ></a
+        >
+
+        <img
+          class="w-lg-50 newslogo"
+          alt="logo"
+          src="https://upload.wikimedia.org/wikipedia/commons/d/db/Newsweek_Logo.svg"
+          width="250rem"
+        />
+        <div class="align-items-center d-flex">
+          <i
+            class="fa fa-user mr-3 text-light d-md-none d-lg-none d-xl-none"
+            aria-hidden="true"
+          ></i>
+          <span class="mr-4 text-dark d-none d-md-block font-weight-bold"
+            >LOGIN</span
+          >
+          <button
+            type="button"
+            class="btn btn-warning text-dark font-weight-bold px-3 py-1"
+          >
+            SUBSCRIBE >
+          </button>
+
+          <i
+            class="fa fa-bars ml-3 text-light d-lg-none d-xl-none"
+            aria-hidden="true"
+          ></i>
+        </div>
+      </nav>
+
+      <div class="container d-lg-block d-none p-0 mt-3">
+        <div class="row">
+          <div class="col-lg-12">
+            <ul class="d-flex justify-content-between">
+              <li>
+                <a href="#" class="text-decoration-none" id="clr"> U.S </a>
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none" id="clr">World </a>
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none" id="clr">Busisness </a>
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none" id="clr"
+                  >Tech & Science</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none" id="clr">culture</a>
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none" id="clr">Neewsgeek</a>
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none" id="clr">Sports</a>
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none" id="clr">Health</a>
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none" id="clr">The Debate</a>
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none" id="clr">Vantage</a>
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none" id="clr">Weather</a>
+              </li>
+              <li>
+                <input
+                  type="search"
+                  name="search"
+                  id=""
+                  placeholder="search"
+                  class="fa fa-search"
+                />
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="container d-none d-lg-block">
+        <div class="row">
+          <div>
+            <ul class="d-flex trend">
+              <li class="mr-3 text-uppercase font-weight-bold">
+                <a href="#" class="text-decoration-none clr"> trending</a>
+              </li>
+              <li class="mr-3 text-uppercase text-muted">
+                <a href="#" class="text-decoration-none clr"> donald trump</a>
+              </li>
+              <li class="mr-3 text-uppercase text-muted">
+                <a href="#" class="text-decoration-none clr"> joe biden</a>
+              </li>
+              <li class="mr-3 text-uppercase text-muted">
+                <a href="#" class="text-decoration-none clr"> china</a>
+              </li>
+              <li class="mr-3 text-uppercase text-muted">
+                <a href="#" class="text-decoration-none clr"> corona virus</a>
+              </li>
+              <li class="mr-3 text-uppercase text-muted">
+                <a href="#" class="text-decoration-none clr"> 2020 election</a>
+              </li>
+            </ul>
+          </div>
+          <hr />
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <br />
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3">
+            <div>
+              <p class="text-muted text-uppercase">featured stories</p>
+              <div class="card">
+                <img
+                  src="https://d.newsweek.com/en/full/1609639/china-uk-huawei-5g-telecommunications-hong-kong.webp?w=397&h=265&q=90&f=08939566b1fe24234971ad28a77473b4"
+                  class="img-fluid card-img-top"
+                  alt="img"
+                  width="250rem"
+                />
+                <span
+                  class="bg-light text-danger px-3 py-1 position-relative bot text-uppercase font-weight-bold"
+                  >world</span
+                >
+                <div class="card-body">
+                  <h5 class="card-title">
+                    China Media Calls for 'Public and Painful' Retaliation Over
+                    U.K. Huawei Ban
+                  </h5>
+                  <p class="card-text">
+                    <a href="#" class="text-decoration-none text-dark">
+                      Global Times said the U.K. is a "weak link" in the
+                      U.S.-led Five Eyes intelligence sharing group and is
+                      toeing the line drawn in Washington, D.C.</a
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <div class="card">
+                <img
+                  src="https://d.newsweek.com/en/full/1609719/ivanka-trump.webp?w=397&h=265&q=90&f=26140e69447a44ebbbacc968d69b4387"
+                  class="img-fluid card-img-top"
+                  alt="img"
+                  width="250rem"
+                />
+                <span
+                  class="bg-light text-danger px-3 text-uppercase py-1 position-relative bot font-weight-bold"
+                  >u.s</span
+                >
+                <div class="card-body">
+                  <h5 class="card-title">
+                    <a href="#" class="text-decoration-none text-dark">
+                      As Ivanka Promotes Goya, Trump Fan Raises Over $250,000 to
+                      Buy Products
+                    </a>
+                  </h5>
+                  <p class="card-text">
+                    Trump detractors have called for a boycott of Goya products
+                    after the company's CEO voiced support for the president.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <div class="card">
+                <img
+                  src="https://d.newsweek.com/en/full/1609737/iran-internet-social-media-execution-death-penalty.webp?w=397&h=265&q=90&f=7dd1a9d57f76e64769542a7360d27a4d"
+                  class="img-fluid card-img-top"
+                  alt="img"
+                  width="250rem"
+                />
+                <span
+                  class="bg-light text-danger text-uppercase px-3 py-1 position-relative bot font-weight-bold"
+                  >culture</span
+                >
+                <div class="card-body">
+                  <h5 class="card-title">
+                    <a href="#" class="text-decoration-none text-dark">
+                      Will Nick Cannon Be Fired From His Fox's 'Masked Singer'
+                      Gig Next?
+                    </a>
+                  </h5>
+                  <p class="card-text">
+                    The TV personality served as host for the reality singing
+                    competition series since it premiered in 2019.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <div class="card">
+                <img
+                  src="https://d.newsweek.com/en/full/1568198/banana-masked-singer.webp?w=397&h=265&q=90&f=b56bb94215cf07d7fdf5ec3c77899416"
+                  class="img-fluid card-img-top"
+                  alt="img"
+                  width="250rem"
+                />
+                <span
+                  class="bg-light text-uppercase text-danger px-3 py-1 position-relative bot font-weight-bold"
+                  >news</span
+                >
+                <div class="card-body">
+                  <h5 class="card-title">
+                    <a href="#" class="text-decoration-none text-dark">
+                      Russia Intensifies Persecution of Jehovah's Witnesses with
+                      110 Armed Raids
+                    </a>
+                  </h5>
+                  <p class="card-text">
+                    The religion has been outlawed in Russia since 2017 since
+                    when there have been a number of arrests of followers.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <div class="card">
+                <img
+                  src="https://d.newsweek.com/en/full/1609642/jehovahs-witness.webp?w=397&h=265&q=90&f=d84309c4846a96a3162c9044c8c1dc98"
+                  class="img-fluid card-img-top"
+                  alt="img"
+                  width="250rem"
+                />
+                <span
+                  class="bg-light text-uppercase text-danger px-3 py-1 position-relative bot font-weight-bold"
+                  >u.s</span
+                >
+                <div class="card-body">
+                  <h5 class="card-title">
+                    <a href="#" class="text-decoration-none text-dark">
+                      As Ivanka Promotes Goya, Trump Fan Raises Over $250,000 to
+                      Buy Products
+                    </a>
+                  </h5>
+                  <p class="card-text">
+                    Trump detractors have called for a boycott of Goya products
+                    after the company's CEO voiced support for the president.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <div class="card">
+                <img
+                  src="https://d.newsweek.com/en/full/1609719/ivanka-trump.webp?w=397&h=265&q=90&f=26140e69447a44ebbbacc968d69b4387"
+                  class="img-fluid card-img-top"
+                  alt="img"
+                  width="250rem"
+                />
+                <span
+                  class="bg-light text-uppercase text-danger px-3 py-1 position-relative bot font-weight-bold"
+                  >news</span
+                >
+                <div class="card-body">
+                  <h5 class="card-title">
+                    <a href="#" class="text-decoration-none text-dark">
+                      Russia Intensifies Persecution of Jehovah's Witnesses</a
+                    >
+                  </h5>
+                  <p class="card-text">
+                    The religion has been outlawed in Russia
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div>
+              <p class="text-muted text-uppercase">top story</p>
+              <div class="card">
+                <img
+                  src="https://d.newsweek.com/en/full/1609673/anthony-fauci.webp?w=591&h=364&f=aa4c8a2024f44e8505fe70a791b2a7a6"
+                  class="img-fluid card-img-top"
+                  alt="img"
+                  width="250rem"
+                />
+                <span
+                  class="bg-light text-uppercase text-danger px-3 py-1 position-relative bot font-weight-bold"
+                  >health</span
+                >
+                <div class="card-body">
+                  <h5 class="card-title">
+                    <a href="#" class="text-decoration-none text-dark">
+                      Fauci Says COVID-19 Could Reach Level of 1918 Spanish Flu
+                    </a>
+                  </h5>
+                  <p class="card-text">
+                    There have been more than 13.3 million worldwide confirmed
+                    cases of COVID-19 during the current pandemic, and over
+                    578,000 recorded deaths.
+                  </p>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card-body">
+                  <img
+                    src="https://d.newsweek.com/en/full/1609626/covid19-coronavirus-robert-redfield-getty.jpg?w=95&h=95&f=75eb3c0934c32a12c50dc6fd04b32ec9"
+                    class="float-left pr-3"
+                    alt="img"
+                    width="95"
+                    height="95"
+                  />
+                  <h5 class="card-title pl-4">
+                    <a href="#" class="text-decoration-none text-dark">
+                      Fauci Says COVID-19 Could Reach Level of 1918 Spanish
+                      Flu</a
+                    >
+                  </h5>
+                </div>
+              </div>
+
+              <span class="text-muted text-uppercase position-relative turn"
+                >my turn</span
+              >
+              <div class="card">
+                <div class="container d-flex justify-content-center">
+                  <div class="row align-items-center">
+                    <div class="col-lg-4">
+                      <div class="card-body w-auto">
+                        <img
+                          src="https://d.newsweek.com/en/full/1608974/sharks-great-white-sharks-ocean-filming.webp?w=397&h=397&f=cecd7e59c24ead75ed8835cef2328cf6"
+                          alt="img"
+                          width="150"
+                          height="100"
+                        />
+                        <h5 class="w-200">
+                          <a href="#" class="text-decoration-none text-dark">
+                            'I Swim With Great White Sharks for a Living'
+                          </a>
+                        </h5>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-4 my-4">
+                      <div class="card-body w-auto">
+                        <img
+                          src="https://d.newsweek.com/en/full/1609009/mother-daughter-carer-alzheimers.webp?w=397&h=397&f=c7ab2eba11c1a034ff28d9f30c7800c4"
+                          alt="img"
+                          width="150"
+                          height="100"
+                        />
+                        <h5 class="w-200">
+                          <a href="#" class="text-decoration-none text-dark">
+                            'I Swim With Great White Sharks for a Living'</a
+                          >
+                        </h5>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 my-4">
+                      <div class="card-body w-auto">
+                        <img
+                          src="https://d.newsweek.com/en/full/1609128/aruba.webp?w=397&h=397&f=26b76630a8789fc45533157263d28b5a"
+                          alt="img"
+                          width="130"
+                          height="100"
+                          class="img-fluid"
+                        />
+                        <h5 class="w-200">
+                          <a href="#" class="text-decoration-none text-dark">
+                            'I Swim With Great White Sharks for a Living'</a
+                          >
+                        </h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <span class="text-muted text-uppercase position-relative turn"
+              >culture&travel</span
+            >
+            <div class="card">
+              <div class="container d-flex justify-content-center">
+                <div class="row align-items-center">
+                  <div class="col-lg-4">
+                    <div class="card-body w-auto">
+                      <img
+                        src="https://d.newsweek.com/en/full/1608974/sharks-great-white-sharks-ocean-filming.webp?w=397&h=397&f=cecd7e59c24ead75ed8835cef2328cf6"
+                        alt="img"
+                        width="150"
+                        height="100"
+                      />
+                      <h5 class="w-200">
+                        <a href="#" class="text-decoration-none text-dark">
+                          'I Swim With Great White Sharks for a Living'</a
+                        >
+                      </h5>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-4 my-4">
+                    <div class="card-body w-auto">
+                      <img
+                        src="https://d.newsweek.com/en/full/1609009/mother-daughter-carer-alzheimers.webp?w=397&h=397&f=c7ab2eba11c1a034ff28d9f30c7800c4"
+                        alt="img"
+                        width="150"
+                        height="100"
+                      />
+                      <h5 class="w-200">
+                        <a href="#" class="text-decoration-none text-dark">
+                          'I Swim With Great White Sharks for a Living'</a
+                        >
+                      </h5>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 my-4">
+                    <div class="card-body w-auto">
+                      <img
+                        src="https://d.newsweek.com/en/full/1608760/pregnancy-miscarriage-women-motherhood.webp?w=397&h=397&f=2fa19066da051dfbf9837444de7d48b7"
+                        alt="img"
+                        width="130"
+                        height="100"
+                        class="img-fluid"
+                      />
+                      <h5 class="w-200">
+                        <a href="#" class="text-decoration-none text-dark">
+                          'I Swim With Great White Sharks for a Living'</a
+                        >
+                      </h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-body">
+                <img
+                  src="https://d.newsweek.com/en/full/1609626/covid19-coronavirus-robert-redfield-getty.jpg?w=95&h=95&f=75eb3c0934c32a12c50dc6fd04b32ec9"
+                  class="float-left pr-3"
+                  alt="img"
+                  width="95"
+                  height="95"
+                />
+                <h5 class="card-title pl-4">
+                  <a href="#" class="text-decoration-none text-dark">
+                    Fauci Says COVID-19 Could Reach Level of 1918 Spanish Flu</a
+                  >
+                </h5>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-body">
+                <img
+                  src="https://d.newsweek.com/en/full/1609626/covid19-coronavirus-robert-redfield-getty.jpg?w=95&h=95&f=75eb3c0934c32a12c50dc6fd04b32ec9"
+                  class="float-left pr-3"
+                  alt="img"
+                  width="95"
+                  height="95"
+                />
+                <h5 class="card-title pl-4">
+                  <a href="#" class="text-decoration-none text-dark">
+                    Fauci Says COVID-19 Could Reach Level of 1918 Spanish Flu</a
+                  >
+                </h5>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-body">
+                <img
+                  src="https://d.newsweek.com/en/full/1609626/covid19-coronavirus-robert-redfield-getty.jpg?w=95&h=95&f=75eb3c0934c32a12c50dc6fd04b32ec9"
+                  class="float-left pr-3"
+                  alt="img"
+                  width="95"
+                  height="95"
+                />
+                <h5 class="card-title pl-4">
+                  <a href="#" class="text-decoration-none text-dark">
+                    Fauci Says COVID-19 Could Reach Level of 1918 Spanish Flu</a
+                  >
+                </h5>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-body">
+                <img
+                  src="https://d.newsweek.com/en/full/1609626/covid19-coronavirus-robert-redfield-getty.jpg?w=95&h=95&f=75eb3c0934c32a12c50dc6fd04b32ec9"
+                  class="float-left pr-3"
+                  alt="img"
+                  width="95"
+                  height="95"
+                />
+                <h5 class="card-title pl-4">
+                  <a href="#" class="text-decoration-none text-dark">
+                    Fauci Says COVID-19 Could Reach Level of 1918 Spanish Flu</a
+                  >
+                </h5>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-body">
+                <img
+                  src="https://d.newsweek.com/en/full/1609626/covid19-coronavirus-robert-redfield-getty.jpg?w=95&h=95&f=75eb3c0934c32a12c50dc6fd04b32ec9"
+                  class="float-left pr-3"
+                  alt="img"
+                  width="95"
+                  height="95"
+                />
+                <h5 class="card-title pl-4">
+                  <a href="#" class="text-decoration-none text-dark">
+                    Fauci Says COVID-19 Could Reach Level of 1918 Spanish Flu</a
+                  >
+                </h5>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-body">
+                <img
+                  src="https://d.newsweek.com/en/full/1609626/covid19-coronavirus-robert-redfield-getty.jpg?w=95&h=95&f=75eb3c0934c32a12c50dc6fd04b32ec9"
+                  class="float-left pr-3"
+                  alt="img"
+                  width="95"
+                  height="95"
+                />
+                <h5 class="card-title pl-4">
+                  <a href="#" class="text-decoration-none text-dark">
+                    Fauci Says COVID-19 Could Reach Level of 1918 Spanish Flu</a
+                  >
+                </h5>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-body">
+                <img
+                  src="https://d.newsweek.com/en/full/1609626/covid19-coronavirus-robert-redfield-getty.jpg?w=95&h=95&f=75eb3c0934c32a12c50dc6fd04b32ec9"
+                  class="float-left pr-3"
+                  alt="img"
+                  width="95"
+                  height="95"
+                />
+                <h5 class="card-title pl-4">
+                  <a href="#" class="text-decoration-none text-dark">
+                    Fauci Says COVID-19 Could Reach Level of 1918 Spanish Flu</a
+                  >
+                </h5>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-body">
+                <img
+                  src="https://d.newsweek.com/en/full/1609626/covid19-coronavirus-robert-redfield-getty.jpg?w=95&h=95&f=75eb3c0934c32a12c50dc6fd04b32ec9"
+                  class="float-left pr-3"
+                  alt="img"
+                  width="95"
+                  height="95"
+                />
+                <h5 class="card-title pl-4">
+                  <a href="#" class="text-decoration-none text-dark">
+                    Fauci Says COVID-19 Could Reach Level of 1918 Spanish Flu
+                  </a>
+                </h5>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-body">
+                <img
+                  src="https://d.newsweek.com/en/full/1609626/covid19-coronavirus-robert-redfield-getty.jpg?w=95&h=95&f=75eb3c0934c32a12c50dc6fd04b32ec9"
+                  class="float-left pr-3"
+                  alt="img"
+                  width="95"
+                  height="95"
+                />
+                <h5 class="card-title pl-4">
+                  <a href="#" class="text-decoration-none text-dark">
+                    Fauci Says COVID-19 Could Reach Level of 1918 Spanish Flu</a
+                  >
+                </h5>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-body">
+                <img
+                  src="https://d.newsweek.com/en/full/1609626/covid19-coronavirus-robert-redfield-getty.jpg?w=95&h=95&f=75eb3c0934c32a12c50dc6fd04b32ec9"
+                  class="float-left pr-3"
+                  alt="img"
+                  width="95"
+                  height="95"
+                />
+                <h5 class="card-title pl-4">
+                  <a href="#" class="text-decoration-none text-dark">
+                    Fauci Says COVID-19 Could Reach Level of 1918 Spanish Flu</a
+                  >
+                </h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3">
+            <p class="text-muted text-uppercase">the debate</p>
+            <hr class="bg-secondary" />
+            <div class="row">
+              <div>
+                <img
+                  class="debate"
+                  alt="image"
+                  height="70px"
+                  src="https://d.newsweek.com/en/full/1603199/joel-l-daniels.webp?w=150&h=150&f=d12a7dd02182bbc8bcc9cade519ce978"
+                />
+                <span class="font-weight-bold pl-4 opp"
+                  >Liberalism Has Failed
+                </span>
+                <span class="pl-5 ml-5 opp">By</span>
+                <br />
+                <span class="ml-5 pl-5 font-weight-bold opp"
+                  >PATRICK J. DENEEN</span
+                >
+              </div>
+            </div>
+
+            <hr class="bg-secondary my-0 position-relative vs" />
+            <hr class="bg-secondary mt-1 position-relative vs" />
+            <div
+              class="d-flex justify-content-center my-3 position-relative vs1"
+            >
+              <span class="bg-dark text-light rounded-circle mt-n3 px-2 py-1"
+                >vs</span
+              >
+            </div>
+
+            <div class="row">
+              <div>
+                <img
+                  class="debate-1 float-right"
+                  alt="image"
+                  height="70px"
+                  src="https://d.newsweek.com/en/full/1609916/ryan-p-williams.webp?w=150&h=150&f=63bb034a4b5428549153568d58e1069d"
+                />
+                <span class="font-weight-bold pl-4 opp float-left"
+                  >Liberalism Has Failed
+                </span>
+                <br />
+                <span class="pl-4 opp float-left">By</span>
+                <br />
+                <span class="pl-4 font-weight-bold opp float-left"
+                  >PATRICK J. DENEEN</span
+                >
+              </div>
+            </div>
+
+            <hr class="bg-secondary my-0 position-relative vs" />
+            <hr class="bg-secondary mt-1 position-relative vs" />
+
+            <p class="text-muted text-uppercase">opinion</p>
+
+            <div>
+              <img
+                src="https://d.newsweek.com/en/full/1609943/hoskins-burton.webp?w=63&h=63&f=297f0bb7dd074a0fdfb498e8caf5819d"
+                class="float-left pr-3"
+                alt="img"
+                width="50"
+                height="50"
+              />
+              <h5 class="w-100">
+                Fauci Says COVID-19 Could Reach Level of 1918 Spanish Flu
+              </h5>
+            </div>
+            <hr class="bg-secondary" />
+
+            <div>
+              <img
+                src="https://d.newsweek.com/en/full/1609943/hoskins-burton.webp?w=63&h=63&f=297f0bb7dd074a0fdfb498e8caf5819d"
+                class="float-left pr-3"
+                alt="img"
+                width="50"
+                height="50"
+              />
+              <h5 class="w-100">
+                Fauci Says COVID-19 Could Reach Level of 1918 Spanish Flu
+              </h5>
+            </div>
+            <hr class="bg-secondary" />
+
+            <div>
+              <img
+                src="https://d.newsweek.com/en/full/1594385/marianne-williamson.webp?w=63&h=63&f=e5673fcb9ddab3bb801cfc7a5c103a2f"
+                class="float-left pr-3"
+                alt="img"
+                width="50"
+                height="50"
+              />
+              <h5 class="w-100">
+                Fauci Says COVID-19 Could Reach Level of 1918 Spanish Flu
+              </h5>
+            </div>
+            <hr class="bg-secondary" />
+
+            <div>
+              <img
+                src="https://d.newsweek.com/en/full/1609140/hadley-arkes.webp?w=63&h=63&f=ffb6c0f9240a731bb885f7f8a3d38d06"
+                class="float-left pr-3"
+                alt="img"
+                width="50"
+                height="50"
+              />
+              <h5 class="w-100">
+                Fauci Says COVID-19 Could Reach Level of 1918 Spanish Flu
+              </h5>
+            </div>
+            <hr class="bg-secondary" />
+
+            <div>
+              <img
+                src="https://d.newsweek.com/en/full/1609770/jamila-hodge-lucy-lang.webp?w=63&h=63&f=a9fed9e4ca7276334e77b0535e81660b"
+                class="float-left pr-3"
+                alt="img"
+                width="50"
+                height="50"
+              />
+              <h5 class="w-100">
+                Fauci Says COVID-19 Could Reach Level of 1918 Spanish Flu
+              </h5>
+            </div>
+            <hr class="bg-secondary" />
+
+            <div>
+              <img
+                src="https://d.newsweek.com/en/full/1609770/jamila-hodge-lucy-lang.webp?w=63&h=63&f=a9fed9e4ca7276334e77b0535e81660b"
+                class="float-left mr-2"
+                alt="img"
+                width="50"
+                height="50"
+              />
+              <h5 class="w-100">
+                Fauci Says COVID-19 Could Reach Level of 1918 Spanish Flu
+              </h5>
+            </div>
+            <hr class="bg-secondary" />
+            <div class="card">
+              <img
+                src="https://d.newsweek.com/en/full/1593439/codesmith.jpg?w=500&h=333&l=0&t=0&f=353ef668fe4f67c9cb89a2592741d5d0"
+                alt="img"
+              />
+              <span
+                class="bg-light text-danger px-3 py-1 position-relative bot text-uppercase font-weight-bold"
+                >sponserd insight</span
+              >
+            </div>
+
+            <div class="card">
+              <div class="card-title">
+                <p class="font-weight-bolder mt-4 pl-4">
+                  Want to Learn to Code Online?
+                </p>
+              </div>
+              <div class="card-body">
+                <p>
+                  If you are thinking about changing career or you have recently
+                  lost your job, this might be the time to think about a career
+                  in coding.
+                </p>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-title">
+                <img src="img/1.jpg" alt="img" height="30px" class="mt-3" />
+                <span
+                  class="small position-relative txt font-weight-bolder pl-1"
+                  >START YOUR DAY WITH 5 ARTICLES</span
+                >
+              </div>
+              <div class="card-body">
+                <input
+                  type="text"
+                  name="email"
+                  id="email"
+                  placeholder="Email Address"
+                  class="w-100"
+                />
+                <button
+                  type="submit"
+                  class="btn btn-danger text-uppercase w-100 mt-2"
+                >
+                  Free signup
+                </button>
+              </div>
+            </div>
+
+            <div class="card mt-4">
+              <img
+                src="https://d.newsweek.com/en/full/1606968/best-nursing-homes-2020.png?w=500&h=333&f=c4c9af7aa9b2229347ab028f6dbddafa"
+                height="220px"
+                class="img-fluid mt-4"
+                alt="img"
+              />
+            </div>
+            <div class="card">
+              <img
+                src="https://d.newsweek.com/en/full/1609719/ivanka-trump.webp?w=397&h=265&q=90&f=26140e69447a44ebbbacc968d69b4387"
+                class="img-fluid card-img-top"
+                alt="img"
+                width="250rem"
+              />
+              <span
+                class="bg-light text-uppercase text-danger px-3 py-1 position-relative bot font-weight-bold"
+                >news</span
+              >
+              <div class="card-body">
+                <h5 class="card-title">
+                  <a href="#" class="text-decoration-none text-dark">
+                    Best Infection Prevention Products</a
+                  >
+                </h5>
+                <p class="card-text">
+                  The religion has been outlawed in Russia
+                </p>
+              </div>
+            </div>
+            <div class="card">
+              <img
+                src="https://d.newsweek.com/en/full/1587568/infection-prevention-products-banner.jpg?w=500&h=333&f=c96d696a017681c45d2f464a2ae0e23d"
+                class="img-fluid card-img-top"
+                alt="img"
+                width="250rem"
+              />
+              <span
+                class="bg-light text-uppercase text-danger px-3 py-1 position-relative bot font-weight-bold"
+                >news</span
+              >
+              <div class="card-body">
+                <h5 class="card-title">
+                  <a href="#" class="text-decoration-none text-dark">
+                    Russia Intensifies Persecution of Jehovah's Witnesses</a
+                  >
+                </h5>
+                <p class="card-text">
+                  During the coronavirus outbreak, health care is more important
+                  than ever.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- ////////////////////////////////////////////////////// -->
+
     <div class="container-fluid bg-color container-lg">
       <!-- Start Editor Pick section -->
       <section class="editor-setion">
