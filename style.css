@@ -75,6 +75,10 @@ a:hover {
   color: #f72210;
 }
 
+.three {
+    width: 250rem;
+}
+
 .footer {
   color: #666;
   background-color: white;
