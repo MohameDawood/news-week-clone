@@ -42,15 +42,15 @@ ul {
   list-style: none;
 }
 
-.opp1{
-    top: -53px;
-    left: 48px;
+.opp1 {
+  top: -53px;
+  left: 48px;
 }
 
-.opp2{
-    position: relative;
-    top: -45px;
-    left: 59px;
+.opp2 {
+  position: relative;
+  top: -45px;
+  left: 59px;
 }
 
 a {
@@ -104,9 +104,11 @@ a:hover {
     -ms-flex-pack: justify;
     justify-content: space-between;
   }
+
   .footer__logo-container--left {
     position: relative;
   }
+
   .footer__logo-container--left p {
     position: absolute;
     top: 23px;
@@ -244,7 +246,8 @@ a:hover {
 @media (min-width: 685px) {
   .newsletter__img-box {
     display: inline-block;
-    background: url(https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5)
+    background:
+      url(https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5)
       center center/cover no-repeat;
     width: 191px;
     height: 251px;
@@ -277,7 +280,6 @@ a:hover {
   line-height: 3.8rem;
   color: #555;
   font-size: 1.4rem;
-  font-family: 'Helvetica', sans-serf;
   background-color: white;
   border: 1px solid #b2f5f5;
   text-indent: 0.9rem;
@@ -294,7 +296,8 @@ a:hover {
   cursor: pointer;
   font-weight: bold;
   font-family: 'Roboto Condensed', sans-serif;
-  background: url(https://g.newsweek.com/www/images/free-sign-up.svg)
+  background:
+    url(https://g.newsweek.com/www/images/free-sign-up.svg)
     center/108px no-repeat #f61602;
   border: none;
   border-radius: 3px;
@@ -430,7 +433,8 @@ a:hover {
   width: 8px;
   height: 14px;
   margin-left: 9px;
-  background: url(https://g.newsweek.com/www/images/icon-arrow-right.svg)
+  background:
+    url(https://g.newsweek.com/www/images/icon-arrow-right.svg)
     center/contain no-repeat;
 }
 
@@ -506,7 +510,8 @@ a:hover {
   display: block;
   width: 2.9rem;
   height: 2.8rem;
-  background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain
+  background:
+    url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain
     no-repeat #f72210;
   margin-right: 1rem;
 }
@@ -578,7 +583,7 @@ a:hover {
   position: absolute;
   top: 0;
 }
-/*# sourceMappingURL=style.css.map */
+
 nav {
   background-color: red;
 }
@@ -600,7 +605,8 @@ nav {
 .trend {
   margin-top: 1px solid red;
 }
-.clr :hover {
+
+.clr:hover {
   color: red;
 }
 
