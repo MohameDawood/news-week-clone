@@ -76,7 +76,7 @@ a:hover {
 }
 
 .three {
-    width: 250rem;
+  width: 250rem;
 }
 
 .footer {
@@ -108,9 +108,11 @@ a:hover {
     -ms-flex-pack: justify;
     justify-content: space-between;
   }
+
   .footer__logo-container--left {
     position: relative;
   }
+
   .footer__logo-container--left p {
     position: absolute;
     top: 23px;
@@ -246,6 +248,7 @@ a:hover {
 }
 
 @media (min-width: 685px) {
+    
   .newsletter__img-box {
     display: inline-block;
     background: url(https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5)
@@ -305,7 +308,7 @@ a:hover {
 }
 
 .two {
-    width: 250rem;
+  width: 250rem;
 }
 
 .subscrib {
@@ -520,8 +523,8 @@ a:hover {
 }
 
 .newslogo {
-    width:40rem;
-    height: 8rem;
+  width: 40rem;
+  height: 8rem;
 }
 
 .editor__article {
@@ -651,20 +654,20 @@ img {
   height: 70px;
 }
 
-.doot{
-    display: none;
+.doot {
+  display: none;
 }
 
-.debate{
-    height:70px;
+.debate {
+  height: 70px;
 }
 
 .img-1 {
-    height:30px;
+  height: 30px;
 }
 
 .img-2 {
-    height:220px;
+  height: 220px;
 }
 
 .txt {
