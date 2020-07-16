@@ -5,6 +5,7 @@
 ![screenshot](./screenshot.png)
 
 This project consists of building a webpage using:
+
 - Bootstrap
 - Media queries
 - Align all elements with float and flex or grid.
@@ -33,7 +34,7 @@ This project consists of building a webpage using:
 - LinkedIn: [karthick-harimoorthy](https://www.linkedin.com/in/karthick-harimoorthy/)
 
 - Github: [@MohamedDawood](https://github.com/MohameDawood)
-- LinkedIn: [Mahamed Dawood]()
+- LinkedIn: [Mahamed Dawood](https://www.linkedin.com/in/mohamedawood/)
 
 ## 🤝 Contributing
 
@@ -47,7 +48,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
- - Thanks to Microverse for pŕoviding the opportunity to practice our coding knowledge
+- Thanks to Microverse for pŕoviding the opportunity to practice our coding knowledge
 
 ## 📝 License
 
