@@ -13,6 +13,8 @@ body {
   font-size: 1.6rem;
   color: #333;
   background-color: #f4f5f7;
+  width: 92%;
+  margin-left: 18px;
 }
 
 h1,
@@ -524,7 +526,7 @@ a:hover {
 }
 
 .newslogo {
-  width: 40rem;
+  width: 18rem;
   height: 8rem;
 }
 
@@ -604,10 +606,20 @@ nav {
   color: red;
 }
 
+input::placeholder { 
+  position: relative;
+  left: 30px;
+}
+
+.search {
+  left: 189px;
+  top: -26px;
+}
+
 .clr {
   border-right: 1px solid gray;
   color: black;
-  padding-right: 5px;
+  padding-right: 8px;
 }
 
 .trend {
@@ -637,7 +649,7 @@ img {
 }
 
 .vs1 {
-  top: -49px;
+  top: -57px;
 }
 
 .vs {
