@@ -1,5 +1,6 @@
 .footer {
   @include vertical-gutter;
+
   color: $light-gray;
   background-color: $white;
   position: relative;
@@ -13,6 +14,7 @@
       justify-content: space-between;
 
       &--left {
+        
         position: relative;
         p {
           position: absolute;
