@@ -281,7 +281,6 @@ a:hover {
   line-height: 3.8rem;
   color: #555;
   font-size: 1.4rem;
-  font-family: "Helvetica", sans-serf;
   background-color: white;
   border: 1px solid #b2f5f5;
   text-indent: 0.9rem;
@@ -437,8 +436,7 @@ a:hover {
   width: 8px;
   height: 14px;
   margin-left: 9px;
-  background: url(https://g.newsweek.com/www/images/icon-arrow-right.svg)
-  center/contain no-repeat;
+  background: url(https://tinyurl.com/y7tv7l89) center/contain no-repeat;
 }
 
 .catalog__title {
@@ -513,7 +511,7 @@ a:hover {
   display: block;
   width: 2.9rem;
   height: 2.8rem;
-  background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain
+  background: url(https://tinyurl.com/y8exto23) center/contain
   no-repeat #f72210;
   margin-right: 1rem;
 }
