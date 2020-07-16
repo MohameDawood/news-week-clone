@@ -42,6 +42,17 @@ ul {
   list-style: none;
 }
 
+.opp1{
+    top: -53px;
+    left: 48px;
+}
+
+.opp2{
+    position: relative;
+    top: -45px;
+    left: 59px;
+}
+
 a {
   color: inherit;
 }
