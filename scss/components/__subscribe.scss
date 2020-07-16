@@ -11,27 +11,26 @@
     letter-spacing: -1px;
   }
 
-  &__img-box {
-    display: none;
-    background-image: url(https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9…)
-      center center / cover no-repeat;
-
-    @media (min-width: 685px) {
-      display: inline-block;
-      width: 48%;
-      height: 100%;
-    }
-  }
-
   &__content-box {
     text-align: center;
     padding: 2rem;
     background-color: $vertical-gutter-bg;
+
+    @media (min-width: 720px) {
+      display: flex;
+      flex-direction: row;
+      text-align: left;
+    }
   }
 
   &__img-box {
     position: relative;
     height: 26rem;
+
+    @media (min-width: 720px) {
+      margin-right: 6rem;
+      width: 30%;
+    }
   }
 
   &__img {
@@ -51,6 +50,23 @@
 
   &__Content {
     display: block;
+
+    @media (min-width: 768px) {
+      & {
+        position: absolute;
+        top: 60%;
+        left: 67%;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        width: 60%;
+      }
+    }
+
+    @media (min-width: 960px) {
+      & {
+        width: 38%;
+      }
+    }
 
     h3 {
       font-weight: bold;
@@ -76,6 +92,10 @@
     background-color: $red;
     border: none;
     border-radius: 3px;
+
+    @media (min-width: 768px) {
+      margin: 0;
+    }
 
     &::after {
       content: '';
