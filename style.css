@@ -300,6 +300,10 @@ a:hover {
   border-radius: 3px;
 }
 
+.two {
+    width: 250rem;
+}
+
 .subscrib {
   padding: 0 1.5rem;
   padding-top: 4.8rem;
@@ -640,6 +644,11 @@ img {
   position: relative;
   top: -56px;
   left: 30px;
+  height: 70px;
+}
+
+.doot{
+    display: none;
 }
 
 .debate{
