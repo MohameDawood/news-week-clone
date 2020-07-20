@@ -1,0 +1,82 @@
+.newsletter {
+  @include vertical-gutter;
+  padding: 0 1.5rem;
+  padding-top: 4.8rem;
+  background-color: $white;
+  position: relative;
+
+  &__heading {
+    color: $red;
+    font-weight: 700;
+    letter-spacing: -1px;
+  }
+
+  &__content-box {
+    text-align: center;
+    border: 1px solid $border-color-light;
+    padding: 2rem;
+    @media (min-width: 685px) {
+      display: flex;
+    }
+  }
+
+  &__img-box {
+    display: none;
+
+    @media (min-width: 685px) {
+      display: inline-block;
+      background: url(https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5)
+        center center/cover no-repeat;
+      width: 191px;
+      height: 251px;
+      margin: -20px;
+      margin-right: 3rem;
+    }
+
+    @media (min-width: 960px) {
+      width: 500px;
+    }
+  }
+
+  &__content {
+    h3 {
+      display: inline-block;
+      font-weight: 700;
+      line-height: 28px;
+      margin-bottom: 15px;
+    }
+    p {
+      font: 300 15px/21px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      margin-bottom: 2rem;
+    }
+  }
+
+  &__email {
+    width: 100%;
+    height: 3.8rem;
+    line-height: 3.8rem; //to center the text vertically
+    color: $gray;
+    font-size: 1.4rem;
+    font-family: 'Helvetica', sans-serf;
+    background-color: $white;
+    border: 1px solid $border-color-lighter;
+    text-indent: 0.9rem; // space at the frist of the text
+  }
+
+  &__submit {
+    font-size: 0;
+    margin-top: 1.1rem;
+    width: 100%;
+    height: 3.8rem;
+    line-height: 3.8rem;
+    color: $white;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: 'Roboto Condensed', sans-serif;
+    background: url(https://g.newsweek.com/www/images/free-sign-up.svg)
+      center/108px no-repeat #f61602;
+    border: none;
+    border-radius: 3px;
+  }
+}
